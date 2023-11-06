@@ -1,0 +1,95 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    margin-left: 68vh; 
+    
+}
+
+.Title {
+    padding: 5rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.Task {
+    max-width: 900px;
+    margin-left: 55vh;
+   margin-right: -10vh;
+    padding: 10px;
+}
+.Task--list {
+    list-style: none;
+    margin: auto;
+    
+}
+
+.task-item {
+    display: flex;
+    margin: 20px 0 ;
+    padding: 10px 20px;
+    border: 0.1px solid #ccc;
+    border-radius: 20px;
+    font-size: 23px;
+    
+}
+
+.completed {
+    background-color: #4CAF50;
+    text-decoration: line-through;
+  } 
+
+  .Input {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.Input-Text {
+    
+    text-indent: 5px;
+    border-radius: 5px;
+    width: 90%;
+  padding: 5px;
+  margin-bottom: 20px;
+  
+}
+.Input-Text[type=text] {
+    border-radius: 10px;
+  
+    padding: 12px 20px;
+    margin: auto;
+    font-size: 100%;
+    padding-right: 10px;
+}
+.checkbox {
+    width: 3%;
+    margin-right: 10px;
+    
+}
+.btn--addTask {
+    background-color: blue;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    
+}
+
+.btn--addTask:hover {
+    background-color: green;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.btn--delete {
+    padding: 10px 20px;
+    background-color: blue;
+    margin-left: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn--delete:hover {
+    background-color: red;
+}
