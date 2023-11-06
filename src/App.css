@@ -7,7 +7,7 @@
 
 .Title {
     padding: 5rem;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(3, 104, 255), 0 0 5px darkblue;
 }
 
 .Task {
@@ -24,17 +24,19 @@
 
 .task-item {
     display: flex;
-    margin: 20px 0 ;
+    margin: 25px 0 ;
     padding: 10px 20px;
     border: 0.1px solid #ccc;
     border-radius: 20px;
     font-size: 23px;
-    
 }
-
+.checkbox {
+    width: 3%;
+    margin-right: 15px;
+}
 .completed {
     background-color: #4CAF50;
-    text-decoration: line-through;
+
   } 
 
   .Input {
@@ -54,17 +56,13 @@
 }
 .Input-Text[type=text] {
     border-radius: 10px;
-  
+    
     padding: 12px 20px;
     margin: auto;
     font-size: 100%;
     padding-right: 10px;
 }
-.checkbox {
-    width: 3%;
-    margin-right: 10px;
-    
-}
+
 .btn--addTask {
     background-color: blue;
     text-decoration: none;
@@ -89,6 +87,7 @@
     margin-left: auto;
     font-size: 15px;
     font-weight: bold;
+    
 }
 .btn--delete:hover {
     background-color: red;
