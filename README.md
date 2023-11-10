@@ -1,8 +1,10 @@
-# React + Vite
+# WORK TRACKER
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Work Tracker application is to help users manage their tasks and work efficiently.
 
-Currently, two official plugins are available:
+## key-features 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Can add and delete tasks.
+- Mark them as done when the task completed.  
+
+
